@@ -1,0 +1,24 @@
+{
+    "name": "vendor_name/php2.courses.local",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vito",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\controllers": "controllers",
+            "app\\interfaces": "interfaces",
+            "app\\models\\records\\": "models/records",
+            "app\\services": "services",
+            "app\\services\\renderers\\": "services/renderers"
+        }
+    }
+}
