@@ -1,0 +1,22 @@
+{
+    "name": "vito/php2.courses.local",
+    "description": "",
+    "authors": [
+        {
+            "name": "geekbrains",
+            "email": "info@geekbrains.ru"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\controllers": "controllers",
+            "app\\interfaces": "interfaces",
+            "app\\models\\records\\": "models/records",
+            "app\\services": "services",
+            "app\\services\\renderers\\": "services/renderers"
+        }
+    }
+}
